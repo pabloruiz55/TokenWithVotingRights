@@ -1,5 +1,7 @@
 pragma solidity ^0.4.19;
 
+import './ERC20Basic.sol';
+
 contract TokenWithVotingRights is ERC20Basic {
     mapping(address => uint256) public votingRights;
     
